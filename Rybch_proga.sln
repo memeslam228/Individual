@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rybch_proga", "Rybch_proga\Rybch_proga.csproj", "{3923049C-18E0-4CD0-9689-B2BC0B9A5EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib", "Lib\Lib.csproj", "{9DF6880D-61B8-4F43-871E-0D1E1471B349}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3923049C-18E0-4CD0-9689-B2BC0B9A5EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3923049C-18E0-4CD0-9689-B2BC0B9A5EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3923049C-18E0-4CD0-9689-B2BC0B9A5EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3923049C-18E0-4CD0-9689-B2BC0B9A5EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF6880D-61B8-4F43-871E-0D1E1471B349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF6880D-61B8-4F43-871E-0D1E1471B349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF6880D-61B8-4F43-871E-0D1E1471B349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF6880D-61B8-4F43-871E-0D1E1471B349}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C93A2BE-AA2F-48F7-9D14-022D71A8505A}
+	EndGlobalSection
+EndGlobal
