@@ -30,11 +30,11 @@ namespace Rybch_proga
 
         private void bWork_Click(object sender, EventArgs e)
         {
-            if (bCezar.Checked == true)
+            if (bCezar.Checked)
             {
                 tTo.Text = Me.Codeс(tFrom.Text, (int)nKey.Value);
             }
-            if (bVisn.Checked == true)
+            if (bVisn.Checked)
             {
                 tTo.Text = Mee.Encode(tFrom.Text, tKey.Text);
             }
@@ -46,11 +46,11 @@ namespace Rybch_proga
 
         private void bBack_Click(object sender, EventArgs e)
         {
-            if (bCezar.Checked == true)
+            if (bCezar.Checked)
             {
                 tTo.Text = Me.Codeс(tFrom.Text, -(int)nKey.Value);
             }
-            if (bVisn.Checked == true)
+            if (bVisn.Checked)
             {
                 tTo.Text = Mee.Decode(tFrom.Text, tKey.Text);
             }
@@ -81,7 +81,7 @@ namespace Rybch_proga
         {
             if (MessageBox.Show(
                 "Программа вміє шифрувати методами:\n\r• Цезаря (англійською, українською, російською а також числа та деякі знаки)\n\r• Віжинера (Поки що тільки українською, якщо необхідні ще мови - звертатися до разробника) \n\r\n\r\n\rАвтор программы: \n\rстудент 205 группи Рибченко Сергій", "Інформація про застосунок",
-             MessageBoxButtons.OK, MessageBoxIcon.Question) == DialogResult.OK) ;
+             MessageBoxButtons.OK, MessageBoxIcon.Question) == DialogResult.OK);
         }
 
         private void tlOpen_Click(object sender, EventArgs e)
@@ -102,7 +102,5 @@ namespace Rybch_proga
                 File.WriteAllText(name, tTo.Text);
             }
         }
-
-
     }
 }

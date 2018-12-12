@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\Individual-master\Lib\bin\Debug\netstandard1.4\Lib.deps.json
+C:\Users\User\Desktop\Individual-master\Lib\bin\Debug\netstandard1.4\Lib.dll
+C:\Users\User\Desktop\Individual-master\Lib\bin\Debug\netstandard1.4\Lib.pdb
+C:\Users\User\Desktop\Individual-master\Lib\obj\Debug\netstandard1.4\Lib.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Individual-master\Lib\obj\Debug\netstandard1.4\Lib.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Individual-master\Lib\obj\Debug\netstandard1.4\Lib.AssemblyInfo.cs
+C:\Users\User\Desktop\Individual-master\Lib\obj\Debug\netstandard1.4\Lib.dll
+C:\Users\User\Desktop\Individual-master\Lib\obj\Debug\netstandard1.4\Lib.pdb

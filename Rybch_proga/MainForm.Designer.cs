@@ -83,7 +83,7 @@
             // tlOpen
             // 
             this.tlOpen.Name = "tlOpen";
-            this.tlOpen.Size = new System.Drawing.Size(152, 24);
+            this.tlOpen.Size = new System.Drawing.Size(180, 24);
             this.tlOpen.Text = "Відкрити";
             this.tlOpen.ToolTipText = "Відкриє текстовий файл у вікно \"Запит\"";
             this.tlOpen.Click += new System.EventHandler(this.tlOpen_Click);
@@ -91,7 +91,7 @@
             // tlSave
             // 
             this.tlSave.Name = "tlSave";
-            this.tlSave.Size = new System.Drawing.Size(152, 24);
+            this.tlSave.Size = new System.Drawing.Size(180, 24);
             this.tlSave.Text = "Зберегти";
             this.tlSave.ToolTipText = "Збереже у текстовий файл з вікна \"Результат\"";
             this.tlSave.Click += new System.EventHandler(this.tlSave_Click);
@@ -253,7 +253,7 @@
             this.toolTip1.AutomaticDelay = 100;
             this.toolTip1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -273,7 +273,7 @@
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);

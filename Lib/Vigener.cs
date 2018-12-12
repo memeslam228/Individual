@@ -21,8 +21,6 @@ namespace Lib
 
         public string Encode(string input, string keyword)
         {
-            //input = input.ToUpper();
-            //keyword = keyword.ToUpper();
 
             string result = "";
 
@@ -44,10 +42,9 @@ namespace Lib
             return result;
         }
 
+
         public string Decode(string input, string keyword)
         {
-            //input = input.ToUpper();
-            //keyword = keyword.ToUpper();
 
             string result = "";
 
@@ -70,4 +67,5 @@ namespace Lib
         }
 
     }
+
 }
